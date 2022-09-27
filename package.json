@@ -8,7 +8,7 @@
   "repository": "https://github.com/Hester60/generate-otp",
   "scripts": {
     "lint": "eslint .",
-    "prepare": "npm run build",
+    "prepare": "npm i husky && npm run build",
     "test": "mocha -r ts-node/register test/**/*.ts",
     "build": "tsc"
   },
